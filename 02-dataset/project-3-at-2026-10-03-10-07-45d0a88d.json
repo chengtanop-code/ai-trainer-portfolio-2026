@@ -1,0 +1,1072 @@
+[
+{
+  "text": "在吗",
+  "id": 1,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 1,
+  "created_at": "2026-09-24T08:46:43.695896Z",
+  "updated_at": "2026-09-24T08:46:43.695913Z",
+  "lead_time": 12.488
+},
+{
+  "text": "老板，定金我转你了，明天的档期帮我确认一下",
+  "id": 2,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 2,
+  "created_at": "2026-09-24T08:46:52.977652Z",
+  "updated_at": "2026-09-24T08:46:52.977669Z",
+  "lead_time": 8.957
+},
+{
+  "text": "你们旅拍多少钱一套？",
+  "id": 3,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 3,
+  "created_at": "2026-09-24T08:46:58.205310Z",
+  "updated_at": "2026-09-24T08:46:58.205329Z",
+  "lead_time": 4.903
+},
+{
+  "text": "急！我到酒店门口了联系不上摄影师，还有半小时就要开始了",
+  "id": 4,
+  "priority": "L4紧急",
+  "annotator": 1,
+  "annotation_id": 4,
+  "created_at": "2026-09-24T08:47:03.576707Z",
+  "updated_at": "2026-09-24T08:47:03.576724Z",
+  "lead_time": 4.816
+},
+{
+  "text": "亲，需要贷款吗？秒批无抵押",
+  "id": 5,
+  "priority": "L1垃圾",
+  "annotator": 1,
+  "annotation_id": 5,
+  "created_at": "2026-09-24T08:47:08.150622Z",
+  "updated_at": "2026-09-24T08:47:08.150640Z",
+  "lead_time": 4.27
+},
+{
+  "text": "明天下午三点的拍摄如果下雨怎么办",
+  "id": 6,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 6,
+  "created_at": "2026-09-24T08:47:16.491768Z",
+  "updated_at": "2026-09-24T08:47:16.491786Z",
+  "lead_time": 8.012
+},
+{
+  "text": "麻烦把上次拍的客片发我一下，谢谢",
+  "id": 7,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 7,
+  "created_at": "2026-09-24T08:47:19.305408Z",
+  "updated_at": "2026-09-24T08:47:19.305425Z",
+  "lead_time": 2.489
+},
+{
+  "text": "你拒绝吧真的是找不到",
+  "id": 8,
+  "priority": "L4紧急",
+  "annotator": 1,
+  "annotation_id": 8,
+  "created_at": "2026-10-03T01:34:59.496522Z",
+  "updated_at": "2026-10-03T01:34:59.496537Z",
+  "lead_time": 29.754
+},
+{
+  "text": "回头还来得",
+  "id": 9,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 9,
+  "created_at": "2026-10-03T01:39:04.522417Z",
+  "updated_at": "2026-10-03T01:39:04.522435Z",
+  "lead_time": 16.309
+},
+{
+  "text": "2个99吗",
+  "id": 10,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 10,
+  "created_at": "2026-10-03T01:39:12.424037Z",
+  "updated_at": "2026-10-03T01:39:12.424054Z",
+  "lead_time": 6.353999999999999
+},
+{
+  "text": "好了不和你开玩笑了我现在付钱明天上午发货这个能保证把",
+  "id": 11,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 11,
+  "created_at": "2026-10-03T01:39:19.498958Z",
+  "updated_at": "2026-10-03T01:39:19.498975Z",
+  "lead_time": 15.818
+},
+{
+  "text": "哦",
+  "id": 12,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 12,
+  "created_at": "2026-10-03T01:45:08.489166Z",
+  "updated_at": "2026-10-03T02:04:24.533065Z",
+  "lead_time": 11.749
+},
+{
+  "text": "你给我个明确答案吧",
+  "id": 13,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 13,
+  "created_at": "2026-10-03T01:45:15.647560Z",
+  "updated_at": "2026-10-03T01:45:15.647575Z",
+  "lead_time": 9.059
+},
+{
+  "text": "我先要三包吧",
+  "id": 14,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 14,
+  "created_at": "2026-10-03T01:45:22.181843Z",
+  "updated_at": "2026-10-03T01:45:22.181860Z",
+  "lead_time": 19.740000000000002
+},
+{
+  "text": "528108973179",
+  "id": 15,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 15,
+  "created_at": "2026-10-03T01:45:32.159063Z",
+  "updated_at": "2026-10-03T01:45:32.159081Z",
+  "lead_time": 13.007000000000001
+},
+{
+  "text": "对的",
+  "id": 16,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 16,
+  "created_at": "2026-10-03T01:45:39.931000Z",
+  "updated_at": "2026-10-03T01:45:39.931021Z",
+  "lead_time": 13.597
+},
+{
+  "text": "真可惜我朋友要原味的",
+  "id": 17,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 17,
+  "created_at": "2026-10-03T01:45:55.726578Z",
+  "updated_at": "2026-10-03T01:45:55.726596Z",
+  "lead_time": 12.834
+},
+{
+  "text": "分茶盒收到有裂纹在面上",
+  "id": 18,
+  "priority": "L4紧急",
+  "annotator": 1,
+  "annotation_id": 18,
+  "created_at": "2026-10-03T01:45:59.255099Z",
+  "updated_at": "2026-10-03T01:45:59.255117Z",
+  "lead_time": 7.896000000000001
+},
+{
+  "text": "明天给我发",
+  "id": 19,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 19,
+  "created_at": "2026-10-03T01:46:02.597216Z",
+  "updated_at": "2026-10-03T01:46:02.597234Z",
+  "lead_time": 3.8810000000000002
+},
+{
+  "text": "没活动",
+  "id": 20,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 20,
+  "created_at": "2026-10-03T01:46:12.107096Z",
+  "updated_at": "2026-10-03T01:46:12.107113Z",
+  "lead_time": 16.018
+},
+{
+  "text": "521521942026要这个吧",
+  "id": 21,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 21,
+  "created_at": "2026-10-03T01:46:16.355372Z",
+  "updated_at": "2026-10-03T01:46:16.355389Z",
+  "lead_time": 11.251999999999999
+},
+{
+  "text": "528690173109这款是干的对吗",
+  "id": 22,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 22,
+  "created_at": "2026-10-03T01:46:46.673178Z",
+  "updated_at": "2026-10-03T01:46:46.673196Z",
+  "lead_time": 31.889000000000003
+},
+{
+  "text": "美女这样那个5元优惠卷貌似不能领了",
+  "id": 23,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 23,
+  "created_at": "2026-10-03T01:47:24.427447Z",
+  "updated_at": "2026-10-03T01:47:24.427466Z",
+  "lead_time": 48.144999999999996
+},
+{
+  "text": "好的谢谢",
+  "id": 24,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 24,
+  "created_at": "2026-10-03T01:47:29.100092Z",
+  "updated_at": "2026-10-03T01:47:29.100109Z",
+  "lead_time": 4.086
+},
+{
+  "text": "好的聚划算的时候买真的划算很多",
+  "id": 25,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 25,
+  "created_at": "2026-10-03T01:47:45.035895Z",
+  "updated_at": "2026-10-03T01:47:45.035913Z",
+  "lead_time": 18.073999999999998
+},
+{
+  "text": "黄色礼盒的什么口味",
+  "id": 26,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 26,
+  "created_at": "2026-10-03T01:47:49.526879Z",
+  "updated_at": "2026-10-03T01:47:49.526897Z",
+  "lead_time": 5.083
+},
+{
+  "text": "都是别人一起合买的有点人这个星期六要回家过年了我怕赶不及给人家",
+  "id": 27,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 27,
+  "created_at": "2026-10-03T01:47:56.740761Z",
+  "updated_at": "2026-10-03T01:47:56.740779Z",
+  "lead_time": 14.850000000000001
+},
+{
+  "text": "应该所有快递都能收的吧买了n多东西了一直都是送货上门的但貌似申通服务不灵光的且网上也很多人投诉他们的",
+  "id": 28,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 28,
+  "created_at": "2026-10-03T01:48:22.680893Z",
+  "updated_at": "2026-10-03T01:48:22.680910Z",
+  "lead_time": 59.449999999999996
+},
+{
+  "text": "怎么越算越多了650",
+  "id": 29,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 29,
+  "created_at": "2026-10-03T01:48:28.199597Z",
+  "updated_at": "2026-10-03T01:48:28.199615Z",
+  "lead_time": 7.558999999999999
+},
+{
+  "text": "还得自己去拿件",
+  "id": 30,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 30,
+  "created_at": "2026-10-03T01:48:37.835072Z",
+  "updated_at": "2026-10-03T01:48:37.835089Z",
+  "lead_time": 4.082
+},
+{
+  "text": "在吗",
+  "id": 31,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 31,
+  "created_at": "2026-10-03T01:48:40.443488Z",
+  "updated_at": "2026-10-03T01:48:40.443506Z",
+  "lead_time": 3.425
+},
+{
+  "text": "还有两个订单帮我取消退款",
+  "id": 32,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 32,
+  "created_at": "2026-10-03T01:48:45.213900Z",
+  "updated_at": "2026-10-03T01:48:45.213917Z",
+  "lead_time": 10.065
+},
+{
+  "text": "那我是给隔奶用的宝宝吐奶厉害会不会过敏什么的",
+  "id": 33,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 33,
+  "created_at": "2026-10-03T01:48:52.685501Z",
+  "updated_at": "2026-10-03T01:48:52.685518Z",
+  "lead_time": 27.717999999999996
+},
+{
+  "text": "你好这个我跟别的一起买还有运费",
+  "id": 34,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 34,
+  "created_at": "2026-10-03T01:48:58.819806Z",
+  "updated_at": "2026-10-03T01:48:58.819824Z",
+  "lead_time": 5.014
+},
+{
+  "text": "要两袋便宜点吗",
+  "id": 35,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 35,
+  "created_at": "2026-10-03T01:49:02.001973Z",
+  "updated_at": "2026-10-03T01:49:02.001992Z",
+  "lead_time": 2.095
+},
+{
+  "text": "这次想使用双十一的你查下",
+  "id": 36,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 36,
+  "created_at": "2026-10-03T01:49:53.901208Z",
+  "updated_at": "2026-10-03T01:49:53.901226Z",
+  "lead_time": 50.912
+},
+{
+  "text": "这款和黄色有什么不同又是你不同",
+  "id": 37,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 37,
+  "created_at": "2026-10-03T01:50:09.339482Z",
+  "updated_at": "2026-10-03T01:50:09.339499Z",
+  "lead_time": 12.096
+},
+{
+  "text": "邮政要签字麻烦",
+  "id": 38,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 38,
+  "created_at": "2026-10-03T01:50:14.051153Z",
+  "updated_at": "2026-10-03T01:50:14.051181Z",
+  "lead_time": 3.423
+},
+{
+  "text": "您好",
+  "id": 39,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 39,
+  "created_at": "2026-10-03T01:50:16.674932Z",
+  "updated_at": "2026-10-03T01:50:16.674949Z",
+  "lead_time": 1.604
+},
+{
+  "text": "一小戴里面有几块榴莲肉",
+  "id": 40,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 40,
+  "created_at": "2026-10-03T01:50:21.115561Z",
+  "updated_at": "2026-10-03T01:50:21.115579Z",
+  "lead_time": 3.34
+},
+{
+  "text": "亲怎么还没发货吗",
+  "id": 41,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 41,
+  "created_at": "2026-10-03T01:50:26.353180Z",
+  "updated_at": "2026-10-03T01:50:26.353198Z",
+  "lead_time": 3.268
+},
+{
+  "text": "上海",
+  "id": 42,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 42,
+  "created_at": "2026-10-03T01:50:29.560310Z",
+  "updated_at": "2026-10-03T02:02:45.982594Z",
+  "lead_time": 5.443
+},
+{
+  "text": "我的件还能不能到了",
+  "id": 43,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 43,
+  "created_at": "2026-10-03T01:50:32.703106Z",
+  "updated_at": "2026-10-03T01:50:32.703124Z",
+  "lead_time": 1.99
+},
+{
+  "text": "这么贵不是99四个吗",
+  "id": 44,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 44,
+  "created_at": "2026-10-03T01:50:43.728031Z",
+  "updated_at": "2026-10-03T02:02:34.873542Z",
+  "lead_time": 14.693999999999999
+},
+{
+  "text": "黄色和绿色有什么区别",
+  "id": 45,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 45,
+  "created_at": "2026-10-03T01:50:46.411167Z",
+  "updated_at": "2026-10-03T01:50:46.411185Z",
+  "lead_time": 1.543
+},
+{
+  "text": "什么时候发货啊",
+  "id": 46,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 46,
+  "created_at": "2026-10-03T01:50:50.019133Z",
+  "updated_at": "2026-10-03T01:50:50.019151Z",
+  "lead_time": 2.677
+},
+{
+  "text": "好的",
+  "id": 47,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 47,
+  "created_at": "2026-10-03T01:50:53.377170Z",
+  "updated_at": "2026-10-03T01:50:53.377188Z",
+  "lead_time": 2.371
+},
+{
+  "text": "这款有货吗",
+  "id": 48,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 48,
+  "created_at": "2026-10-03T01:50:58.658060Z",
+  "updated_at": "2026-10-03T01:50:58.658078Z",
+  "lead_time": 3.248
+},
+{
+  "text": "己买",
+  "id": 49,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 49,
+  "created_at": "2026-10-03T01:51:02.539564Z",
+  "updated_at": "2026-10-03T01:51:02.539582Z",
+  "lead_time": 2.917
+},
+{
+  "text": "舌头疼口感不好",
+  "id": 50,
+  "priority": "L4紧急",
+  "annotator": 1,
+  "annotation_id": 50,
+  "created_at": "2026-10-03T01:51:09.170688Z",
+  "updated_at": "2026-10-03T01:51:09.170706Z",
+  "lead_time": 5.564
+},
+{
+  "text": "嗯嗯就是要上次买的一样",
+  "id": 51,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 51,
+  "created_at": "2026-10-03T01:51:27.657274Z",
+  "updated_at": "2026-10-03T01:51:27.657292Z",
+  "lead_time": 6.358
+},
+{
+  "text": "你们家一般什么时候会有活动呀除了双十一",
+  "id": 52,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 52,
+  "created_at": "2026-10-03T01:51:36.009079Z",
+  "updated_at": "2026-10-03T01:51:36.009096Z",
+  "lead_time": 7.291
+},
+{
+  "text": "我1000份最好是75元一个就好了",
+  "id": 53,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 53,
+  "created_at": "2026-10-03T01:51:44.472464Z",
+  "updated_at": "2026-10-03T01:51:44.472490Z",
+  "lead_time": 7.34
+},
+{
+  "text": "椒盐3袋奶味2袋可以吗一共5袋每袋一斤",
+  "id": 54,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 54,
+  "created_at": "2026-10-03T01:51:51.616459Z",
+  "updated_at": "2026-10-03T01:51:51.616476Z",
+  "lead_time": 6.137
+},
+{
+  "text": "今天买什么时候发货",
+  "id": 55,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 55,
+  "created_at": "2026-10-03T01:51:54.737698Z",
+  "updated_at": "2026-10-03T01:51:54.737715Z",
+  "lead_time": 1.985
+},
+{
+  "text": "我没有打开太恶心了吧满心期待的打开结果是这样",
+  "id": 56,
+  "priority": "L4紧急",
+  "annotator": 1,
+  "annotation_id": 56,
+  "created_at": "2026-10-03T01:51:59.411510Z",
+  "updated_at": "2026-10-03T01:51:59.411528Z",
+  "lead_time": 3.044
+},
+{
+  "text": "真正的304不锈磁铁是吸不上的吸得上的是不锈铁的",
+  "id": 57,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 57,
+  "created_at": "2026-10-03T01:52:24.449195Z",
+  "updated_at": "2026-10-03T01:52:24.449213Z",
+  "lead_time": 24.059
+},
+{
+  "text": "送什么礼品现在拍下有什么快递",
+  "id": 58,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 58,
+  "created_at": "2026-10-03T01:52:28.428152Z",
+  "updated_at": "2026-10-03T01:52:28.428170Z",
+  "lead_time": 3.0
+},
+{
+  "text": "退款重拍就没有优惠了谢谢了",
+  "id": 59,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 59,
+  "created_at": "2026-10-03T01:52:36.594237Z",
+  "updated_at": "2026-10-03T01:52:36.594258Z",
+  "lead_time": 7.173
+},
+{
+  "text": "547027288858",
+  "id": 60,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 60,
+  "created_at": "2026-10-03T01:52:46.852813Z",
+  "updated_at": "2026-10-03T02:01:06.166107Z",
+  "lead_time": 9.149
+},
+{
+  "text": "我今天收到了湿纸巾",
+  "id": 61,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 61,
+  "created_at": "2026-10-03T01:53:06.190815Z",
+  "updated_at": "2026-10-03T01:53:06.190832Z",
+  "lead_time": 17.636
+},
+{
+  "text": "哦哦我要熟的",
+  "id": 62,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 62,
+  "created_at": "2026-10-03T01:53:11.331055Z",
+  "updated_at": "2026-10-03T02:00:52.220170Z",
+  "lead_time": 10.834
+},
+{
+  "text": "亲可以擦脸卸妆",
+  "id": 63,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 63,
+  "created_at": "2026-10-03T01:53:17.067025Z",
+  "updated_at": "2026-10-03T01:53:17.067042Z",
+  "lead_time": 4.634
+},
+{
+  "text": "什么时候可以发货",
+  "id": 64,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 64,
+  "created_at": "2026-10-03T01:53:19.761048Z",
+  "updated_at": "2026-10-03T01:53:19.761066Z",
+  "lead_time": 1.661
+},
+{
+  "text": "再优惠多DD",
+  "id": 65,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 65,
+  "created_at": "2026-10-03T01:53:23.613648Z",
+  "updated_at": "2026-10-03T01:53:23.613668Z",
+  "lead_time": 2.747
+},
+{
+  "text": "客服给了我一个搞笑的答案说她认错人了",
+  "id": 66,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 66,
+  "created_at": "2026-10-03T01:53:36.624594Z",
+  "updated_at": "2026-10-03T01:53:36.624612Z",
+  "lead_time": 11.825
+},
+{
+  "text": "瑧果吧还有什么",
+  "id": 67,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 67,
+  "created_at": "2026-10-03T01:53:40.737621Z",
+  "updated_at": "2026-10-03T01:53:40.737640Z",
+  "lead_time": 3.076
+},
+{
+  "text": "之前都是你这拿的好的",
+  "id": 68,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 68,
+  "created_at": "2026-10-03T01:53:44.666731Z",
+  "updated_at": "2026-10-03T01:53:44.666755Z",
+  "lead_time": 2.823
+},
+{
+  "text": "等于说366元是吧",
+  "id": 69,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 69,
+  "created_at": "2026-10-03T01:53:47.863367Z",
+  "updated_at": "2026-10-03T01:53:47.863386Z",
+  "lead_time": 2.24
+},
+{
+  "text": "我承德的",
+  "id": 70,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 70,
+  "created_at": "2026-10-03T01:53:54.659524Z",
+  "updated_at": "2026-10-03T01:53:54.659543Z",
+  "lead_time": 5.556
+},
+{
+  "text": "嗯好的运费怎么办",
+  "id": 71,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 71,
+  "created_at": "2026-10-03T01:54:02.102429Z",
+  "updated_at": "2026-10-03T01:54:02.102447Z",
+  "lead_time": 5.226
+},
+{
+  "text": "528105689823",
+  "id": 72,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 72,
+  "created_at": "2026-10-03T01:54:05.304063Z",
+  "updated_at": "2026-10-03T02:00:12.996803Z",
+  "lead_time": 4.187
+},
+{
+  "text": "就是要运费就差一块钱",
+  "id": 73,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 73,
+  "created_at": "2026-10-03T01:54:14.354678Z",
+  "updated_at": "2026-10-03T01:54:14.354696Z",
+  "lead_time": 7.825
+},
+{
+  "text": "吃完再来买送点吧",
+  "id": 74,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 74,
+  "created_at": "2026-10-03T01:54:19.609887Z",
+  "updated_at": "2026-10-03T02:00:07.335465Z",
+  "lead_time": 22.612000000000002
+},
+{
+  "text": "哦哦好的现在买明天发货吗",
+  "id": 75,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 75,
+  "created_at": "2026-10-03T01:54:30.342729Z",
+  "updated_at": "2026-10-03T01:54:30.342757Z",
+  "lead_time": 3.142
+},
+{
+  "text": "自动改价发哪家快递呢",
+  "id": 76,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 76,
+  "created_at": "2026-10-03T01:54:37.177339Z",
+  "updated_at": "2026-10-03T01:54:37.177356Z",
+  "lead_time": 5.795
+},
+{
+  "text": "包邮吗",
+  "id": 77,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 77,
+  "created_at": "2026-10-03T01:54:40.331295Z",
+  "updated_at": "2026-10-03T01:54:40.331313Z",
+  "lead_time": 2.1
+},
+{
+  "text": "味道棒棒就是讨厌邮政",
+  "id": 78,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 78,
+  "created_at": "2026-10-03T01:54:49.304360Z",
+  "updated_at": "2026-10-03T01:59:42.214419Z",
+  "lead_time": 12.609
+},
+{
+  "text": "55可以就拿100个",
+  "id": 79,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 79,
+  "created_at": "2026-10-03T01:54:53.498967Z",
+  "updated_at": "2026-10-03T01:54:53.498984Z",
+  "lead_time": 2.23
+},
+{
+  "text": "好的马上去关注记得送呢",
+  "id": 80,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 80,
+  "created_at": "2026-10-03T01:55:02.149369Z",
+  "updated_at": "2026-10-03T01:55:02.149385Z",
+  "lead_time": 7.375
+},
+{
+  "text": "快递已经发短信了",
+  "id": 81,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 81,
+  "created_at": "2026-10-03T01:55:08.402268Z",
+  "updated_at": "2026-10-03T01:55:08.402287Z",
+  "lead_time": 5.195
+},
+{
+  "text": "嗯亲已经付款了",
+  "id": 82,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 82,
+  "created_at": "2026-10-03T01:55:14.076586Z",
+  "updated_at": "2026-10-03T01:55:14.076603Z",
+  "lead_time": 4.735
+},
+{
+  "text": "高冷",
+  "id": 83,
+  "priority": "L1垃圾",
+  "annotator": 1,
+  "annotation_id": 83,
+  "created_at": "2026-10-03T01:55:17.540105Z",
+  "updated_at": "2026-10-03T01:55:17.540123Z",
+  "lead_time": 2.375
+},
+{
+  "text": "这样的可以退的是不走邮政的对不",
+  "id": 84,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 84,
+  "created_at": "2026-10-03T01:55:24.416241Z",
+  "updated_at": "2026-10-03T01:55:24.416259Z",
+  "lead_time": 5.726
+},
+{
+  "text": "啊多少啊邮费",
+  "id": 85,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 85,
+  "created_at": "2026-10-03T01:55:27.664987Z",
+  "updated_at": "2026-10-03T01:55:27.665005Z",
+  "lead_time": 2.231
+},
+{
+  "text": "546487395690",
+  "id": 86,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 86,
+  "created_at": "2026-10-03T01:55:39.544823Z",
+  "updated_at": "2026-10-03T01:58:49.672768Z",
+  "lead_time": 7.7780000000000005
+},
+{
+  "text": "你好",
+  "id": 87,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 87,
+  "created_at": "2026-10-03T01:55:42.769931Z",
+  "updated_at": "2026-10-03T01:55:42.769949Z",
+  "lead_time": 2.21
+},
+{
+  "text": "开票优惠20那我提交哈",
+  "id": 88,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 88,
+  "created_at": "2026-10-03T01:55:53.266686Z",
+  "updated_at": "2026-10-03T01:55:53.266705Z",
+  "lead_time": 9.303
+},
+{
+  "text": "送核桃器不",
+  "id": 89,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 89,
+  "created_at": "2026-10-03T01:55:58.184894Z",
+  "updated_at": "2026-10-03T01:55:58.184911Z",
+  "lead_time": 3.994
+},
+{
+  "text": "榴莲干涨价了吗",
+  "id": 90,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 90,
+  "created_at": "2026-10-03T01:56:01.880002Z",
+  "updated_at": "2026-10-03T01:56:01.880020Z",
+  "lead_time": 2.414
+},
+{
+  "text": "这款洗衣皂有香味吗",
+  "id": 91,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 91,
+  "created_at": "2026-10-03T01:56:04.881986Z",
+  "updated_at": "2026-10-03T01:56:04.882004Z",
+  "lead_time": 1.825
+},
+{
+  "text": "我看看好吗",
+  "id": 92,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 92,
+  "created_at": "2026-10-03T01:56:07.545499Z",
+  "updated_at": "2026-10-03T01:56:07.545516Z",
+  "lead_time": 1.65
+},
+{
+  "text": "那到底如何处理总得有个回复吧",
+  "id": 93,
+  "priority": "L4紧急",
+  "annotator": 1,
+  "annotation_id": 93,
+  "created_at": "2026-10-03T01:56:14.452924Z",
+  "updated_at": "2026-10-03T01:56:14.452944Z",
+  "lead_time": 3.268
+},
+{
+  "text": "我忘记备注了",
+  "id": 94,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 94,
+  "created_at": "2026-10-03T01:56:18.995138Z",
+  "updated_at": "2026-10-03T01:56:18.995157Z",
+  "lead_time": 3.377
+},
+{
+  "text": "新品是无纺布还是纯棉啊",
+  "id": 95,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 95,
+  "created_at": "2026-10-03T01:56:29.332440Z",
+  "updated_at": "2026-10-03T01:56:29.332458Z",
+  "lead_time": 9.304
+},
+{
+  "text": "也是明天发吗",
+  "id": 96,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 96,
+  "created_at": "2026-10-03T01:56:32.584284Z",
+  "updated_at": "2026-10-03T01:56:32.584299Z",
+  "lead_time": 2.057
+},
+{
+  "text": "为什么这么迟才发啊不是接到订单就可以发了吗",
+  "id": 97,
+  "priority": "L4紧急",
+  "annotator": 1,
+  "annotation_id": 97,
+  "created_at": "2026-10-03T01:56:35.823593Z",
+  "updated_at": "2026-10-03T01:56:35.823610Z",
+  "lead_time": 2.034
+},
+{
+  "text": "785",
+  "id": 98,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 98,
+  "created_at": "2026-10-03T01:56:38.464924Z",
+  "updated_at": "2026-10-03T01:58:15.464735Z",
+  "lead_time": 4.979
+},
+{
+  "text": "是最大的尺寸",
+  "id": 99,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 99,
+  "created_at": "2026-10-03T01:56:42.929234Z",
+  "updated_at": "2026-10-03T01:56:42.929252Z",
+  "lead_time": 3.047
+},
+{
+  "text": "噢去年买的不大好感觉是陈的不是你家的",
+  "id": 100,
+  "priority": "L2可延后",
+  "annotator": 1,
+  "annotation_id": 100,
+  "created_at": "2026-10-03T01:56:52.273510Z",
+  "updated_at": "2026-10-03T01:58:03.607595Z",
+  "lead_time": 18.625
+},
+{
+  "text": "wu了夏威夷果味道不对",
+  "id": 101,
+  "priority": "L4紧急",
+  "annotator": 1,
+  "annotation_id": 101,
+  "created_at": "2026-10-03T01:56:55.760497Z",
+  "updated_at": "2026-10-03T01:56:55.760515Z",
+  "lead_time": 2.514
+},
+{
+  "text": "我看你们的产品有好多种",
+  "id": 102,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 102,
+  "created_at": "2026-10-03T01:56:59.399714Z",
+  "updated_at": "2026-10-03T01:56:59.399740Z",
+  "lead_time": 2.381
+},
+{
+  "text": "可以发中通吗",
+  "id": 103,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 103,
+  "created_at": "2026-10-03T01:57:01.995197Z",
+  "updated_at": "2026-10-03T01:57:01.995214Z",
+  "lead_time": 1.623
+},
+{
+  "text": "前6000名送的礼品不要忘记了我现在下单",
+  "id": 104,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 104,
+  "created_at": "2026-10-03T01:57:07.039644Z",
+  "updated_at": "2026-10-03T01:57:44.687897Z",
+  "lead_time": 14.904
+},
+{
+  "text": "我买3包一个地址的你送我3把夹子哦还有小零食夹子是什么样子的啊好夹开吗",
+  "id": 105,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 105,
+  "created_at": "2026-10-03T01:57:12.283779Z",
+  "updated_at": "2026-10-03T01:57:12.283797Z",
+  "lead_time": 4.06
+},
+{
+  "text": "我买5斤送点什么东西人呢",
+  "id": 106,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 106,
+  "created_at": "2026-10-03T01:57:15.777100Z",
+  "updated_at": "2026-10-03T01:57:15.777117Z",
+  "lead_time": 2.337
+},
+{
+  "text": "坏的多可以退吗",
+  "id": 107,
+  "priority": "L3重要",
+  "annotator": 1,
+  "annotation_id": 107,
+  "created_at": "2026-10-03T01:57:19.436765Z",
+  "updated_at": "2026-10-03T01:57:19.436784Z",
+  "lead_time": 2.048
+}
+]
