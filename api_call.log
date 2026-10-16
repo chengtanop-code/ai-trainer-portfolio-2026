@@ -1,0 +1,13 @@
+2026-10-10 10:21:02,156 - INFO - ï¿½ï¿½1ï¿½Î³ï¿½ï¿½Ôµï¿½ï¿½ï¿½: https://v1.hitokoto.cn/
+2026-10-10 10:21:03,547 - INFO - ï¿½ï¿½ï¿½Ã³É¹ï¿½ï¿½ï¿½×´Ì¬ï¿½ï¿½: 200
+2026-10-10 10:21:03,548 - INFO - ï¿½ï¿½È¡ï¿½ï¿½ï¿½Ä°ï¿½: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Õ¶Ö®ï¿½ï¿½
+2026-10-10 10:22:31,138 - INFO - ï¿½ï¿½1ï¿½Î³ï¿½ï¿½Ôµï¿½ï¿½ï¿½: https://v1.h\itokoto.cn/
+2026-10-10 10:22:31,191 - ERROR - ï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½: HTTPSConnectionPool(host='v1.h', port=443): Max retries exceeded with url: /%5Citokoto.cn/ (Caused by NameResolutionError("HTTPSConnection(host='v1.h', port=443): Failed to resolve 'v1.h' ([Errno 11001] getaddrinfo failed)"))
+2026-10-10 10:22:32,192 - INFO - ï¿½ï¿½2ï¿½Î³ï¿½ï¿½Ôµï¿½ï¿½ï¿½: https://v1.h\itokoto.cn/
+2026-10-10 10:22:32,215 - ERROR - ï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½: HTTPSConnectionPool(host='v1.h', port=443): Max retries exceeded with url: /%5Citokoto.cn/ (Caused by NameResolutionError("HTTPSConnection(host='v1.h', port=443): Failed to resolve 'v1.h' ([Errno 11001] getaddrinfo failed)"))
+2026-10-10 10:22:33,217 - INFO - ï¿½ï¿½3ï¿½Î³ï¿½ï¿½Ôµï¿½ï¿½ï¿½: https://v1.h\itokoto.cn/
+2026-10-10 10:22:33,260 - ERROR - ï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½: HTTPSConnectionPool(host='v1.h', port=443): Max retries exceeded with url: /%5Citokoto.cn/ (Caused by NameResolutionError("HTTPSConnection(host='v1.h', port=443): Failed to resolve 'v1.h' ([Errno 11001] getaddrinfo failed)"))
+2026-10-10 10:22:34,261 - ERROR - ï¿½ï¿½ï¿½ï¿½3ï¿½Îºï¿½ï¿½ï¿½È»Ê§ï¿½ï¿½
+2026-10-16 10:01:42,828 - INFO - µÚ1´Î³¢ÊÔµ÷ÓÃ: https://v1.hitokoto.cn/
+2026-10-16 10:01:43,844 - INFO - µ÷ÓÃ³É¹¦£¬×´Ì¬Âë: 200
+2026-10-16 10:01:43,845 - INFO - »ñÈ¡µ½ÎÄ°¸: ²Ðë»¹ÂµÆÏÒÔÂÅ¯£¬²»¾øÈçÂÆ³îÇ§¶Î¡£
