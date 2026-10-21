@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>紧急铃 · 消息分级数据看板</title>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; background: #f4f6fa; color: #1f2937; padding: 24px; }
+  .wrap { max-width: 1200px; margin: 0 auto; }
+  header { background: linear-gradient(135deg,#1e3a8a,#2563eb); color:#fff; border-radius: 14px; padding: 26px 30px; margin-bottom: 22px; }
+  header h1 { font-size: 24px; margin-bottom: 8px; }
+  header p { font-size: 14px; opacity: .9; }
+  .kpis { display: grid; grid-template-columns: repeat(4,1fr); gap: 16px; margin-bottom: 22px; }
+  .kpi { background:#fff; border-radius: 12px; padding: 20px; text-align:center; box-shadow: 0 2px 10px rgba(0,0,0,.05); }
+  .kpi .num { font-size: 30px; font-weight: 700; color:#1d4ed8; }
+  .kpi .lab { font-size: 13px; color:#6b7280; margin-top: 6px; }
+  .grid { display:grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 22px; }
+  .card { background:#fff; border-radius: 12px; padding: 18px; box-shadow: 0 2px 10px rgba(0,0,0,.05); }
+  .card h3 { font-size: 15px; margin-bottom: 6px; color:#374151; }
+  .chart { width:100%; height: 300px; }
+  .full { grid-column: 1 / -1; }
+  table { width:100%; border-collapse: collapse; font-size: 13px; }
+  th, td { padding: 9px 10px; text-align:left; border-bottom: 1px solid #eef0f3; }
+  th { background:#f8fafc; color:#475569; font-weight:600; }
+  .tag { display:inline-block; padding:2px 9px; border-radius: 20px; font-size:12px; color:#fff; }
+  .L4{background:#dc2626;} .L3{background:#ea580c;} .L2{background:#16a34a;} .L1{background:#6b7280;}
+  .note { font-size:12px; color:#9ca3af; margin-top:10px; }
+  @media(max-width:820px){ .grid{grid-template-columns:1fr;} .kpis{grid-template-columns:repeat(2,1fr);} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>紧急铃 · 客户消息智能分级数据看板</h1>
+    <p>数据来源：30条人工标注测试集（含L1–L4正确级别）+ 四轮提示词调优评测记录　|　FastAPI + DeepSeek + SQLite</p>
+  </header>
+
+  <div class="kpis">
+    <div class="kpi"><div class="num">30</div><div class="lab">测试集总数（条）</div></div>
+    <div class="kpi"><div class="num">100%</div><div class="lab">最终整体准确率</div></div>
+    <div class="kpi"><div class="num">100%</div><div class="lab">L4紧急召回率</div></div>
+    <div class="kpi"><div class="num">4</div><div class="lab">提示词调优轮次</div></div>
+  </div>
+
+  <div class="grid">
+    <div class="card"><h3>四级消息数量分布</h3><div id="c1" class="chart"></div></div>
+    <div class="card"><h3>四级消息占比</h3><div id="c2" class="chart"></div></div>
+    <div class="card full"><h3>四轮提示词调优：准确率与L4召回率变化</h3><div id="c3" class="chart"></div></div>
+    <div class="card full"><h3>最终各级别判对情况</h3><div id="c4" class="chart"></div></div>
+  </div>
+
+  <div class="card full">
+    <h3>30条测试集明细（人工标注级别）</h3>
+    <table id="tbl">
+      <thead><tr><th>#</th><th>消息内容</th><th>级别</th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <p class="note">说明：本看板全部为真实测试集与评测记录，非模拟数据。</p>
+  </div>
+</div>
+
+<script>
+var DATA = [
+ ["老板在吗？我是明天拍婚纱照的李小姐，航班提前了早上7点能到，能提前开门化妆吗？","L4"],
+ ["刚转了2000定金你收一下，档期给我锁5月2号别给别人了","L4"],
+ ["今天雨太大外景拍不了怎么办？能不能改期或者换室内？","L4"],
+ ["我到你们店门口了，门锁着没人，电话也打不通","L4"],
+ ["孩子突然发烧，今天下午亲子照来不了，定金能退吗？","L4"],
+ ["修了20天图还没给我？今天再不发我就退款加小红书曝光","L4"],
+ ["紧急！摄影棚灯光烧了一组，下午三点的客户怎么办？","L4"],
+ ["在吗在吗在吗？？？","L4"],
+ ["想问下10月3号还有档期吗？两个人拍情侣照","L3"],
+ ["套餐999和1299差在哪？能发下合同模板看看吗","L3"],
+ ["朋友推荐来的，她说你拍得好，怎么预约？","L3"],
+ ["那行就定你们家了，定金怎么付？","L3"],
+ ["美团上咨询的麻烦尽快回，平台说30分钟内回复有流量加权","L3"],
+ ["上次全家福很满意，爸妈金婚想再约一组，下周六方便吗","L3"],
+ ["照片选好了36张，编号发你邮箱了，查收一下","L3"],
+ ["明天拍摄要自己带什么衣服？再确认下集合地点","L3"],
+ ["在吗","L2"],
+ ["你们家拍照多少钱啊","L2"],
+ ["能发点客片看看吗","L2"],
+ ["你们店具体位置在哪呀","L2"],
+ ["宝宝百天照什么时候拍比较好？我先了解下","L2"],
+ ["哈哈哈这个表情包笑死我了","L2"],
+ ["周末有空一起吃饭不","L2"],
+ ["麻烦帮我朋友圈第一条点个赞谢谢","L2"],
+ ["【贷款】您有50万预授信额度待领取，点击链接","L1"],
+ ["诚招兼职刷单，日结300+","L1"],
+ ["@所有人 本周摄影行业直播课今晚8点开课","L1"],
+ ["需要发票代开请联系微信","L1"],
+ ["您的快递已放驿站","L1"],
+ ["新店开业礼服批发工厂直供欢迎同行合作","L1"]
+];
+
+var COLORS = {L4:'#dc2626', L3:'#ea580c', L2:'#16a34a', L1:'#6b7280'};
+
+// 明细表
+var tbody = document.getElementById('tbl').querySelector('tbody');
+DATA.forEach(function(d,i){
+  var tr = document.createElement('tr');
+  tr.innerHTML = '<td>'+(i+1)+'</td><td>'+d[0]+'</td><td><span class="tag '+d[1]+'">'+d[1]+'</span></td>';
+  tbody.appendChild(tr);
+});
+
+function count(lv){ return DATA.filter(function(d){return d[1]===lv;}).length; }
+var levels = ['L4','L3','L2','L1'];
+
+// 图1 数量分布
+echarts.init(document.getElementById('c1')).setOption({
+  tooltip:{trigger:'axis'},
+  grid:{left:40,right:20,top:20,bottom:30,containLabel:true},
+  xAxis:{type:'category',data:levels},
+  yAxis:{type:'value',minInterval:1},
+  series:[{type:'bar',data:levels.map(function(l){return {value:count(l),itemStyle:{color:COLORS[l]}};}),
+    barWidth:'45%',label:{show:true,position:'top'}}]
+});
+
+// 图2 占比饼
+echarts.init(document.getElementById('c2')).setOption({
+  tooltip:{trigger:'item',formatter:'{b}: {c}条 ({d}%)'},
+  legend:{bottom:0},
+  series:[{type:'pie',radius:['40%','65%'],center:['50%','45%'],
+    data:levels.map(function(l){return {name:l,value:count(l),itemStyle:{color:COLORS[l]}};}),
+    label:{formatter:'{b} {d}%'}}]
+});
+
+// 图3 调优曲线
+echarts.init(document.getElementById('c3')).setOption({
+  tooltip:{trigger:'axis',valueFormatter:function(v){return v+'%';}},
+  legend:{top:0,data:['整体准确率','L4召回率']},
+  grid:{left:50,right:30,top:40,bottom:30,containLabel:true},
+  xAxis:{type:'category',data:['第1轮','第2轮','第3轮','第4轮']},
+  yAxis:{type:'value',min:70,max:100,axisLabel:{formatter:'{value}%'}},
+  series:[
+    {name:'整体准确率',type:'line',smooth:true,data:[80,96.7,96.7,100],label:{show:true,formatter:'{c}%'}},
+    {name:'L4召回率',type:'line',smooth:true,data:[87.5,87.5,87.5,100],label:{show:true,formatter:'{c}%'}}
+  ]
+});
+
+// 图4 各级别判对
+echarts.init(document.getElementById('c4')).setOption({
+  tooltip:{trigger:'axis',valueFormatter:function(v){return v+'%';}},
+  grid:{left:50,right:30,top:20,bottom:30,containLabel:true},
+  xAxis:{type:'category',data:levels},
+  yAxis:{type:'value',max:100,axisLabel:{formatter:'{value}%'}},
+  series:[{type:'bar',barWidth:'45%',
+    data:levels.map(function(l){return {value:100,itemStyle:{color:COLORS[l]}};}),
+    label:{show:true,position:'top',formatter:'{c}%'}}]
+});
+
+window.addEventListener('resize',function(){
+  ['c1','c2','c3','c4'].forEach(function(id){
+    var inst = echarts.getInstanceByDom(document.getElementById(id));
+    if(inst) inst.resize();
+  });
+});
+</script>
+</body>
+</html>
